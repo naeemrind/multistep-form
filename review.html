@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Review</title>
+  </head>
+  <body>
+    <h1>Final Step</h1>
+    <hr />
+    <div class="container">
+      <form>
+        <fieldset>
+          <legend>Your Review</legend>
+          <div class="selector">
+            <label for="selector">How did you hear about us?</label>
+            <select name="selector" id="selector">
+              <option value="" selected disabled>Select your option</option>
+              <option value="youtube">Youtube</option>
+              <option value="google">Google</option>
+              <option value="instagram">Instagram</option>
+              <option value="linkedin">LinkedIn</option>
+            </select>
+          </div>
+          <div class="radio">
+            <label>Would you visit again?</label>
+            <div class="radio-options">
+              <div>
+                <input type="radio" name="visit" id="visit-yes" />
+                <label for="visit-yes">Yes</label>
+              </div>
+              <div>
+                <input type="radio" name="visit" id="visit-no" />
+                <label for="visit-no">No</label>
+              </div>
+              <div>
+                <input type="radio" name="visit" id="visit-maybe" />
+                <label for="visit-maybe">Maybe</label>
+              </div>
+            </div>
+          </div>
+          <div class="comments">
+            <label>Comments</label>
+            <textarea name="comments" cols="30" rows="6"></textarea>
+          </div>
+          <div class="file-upload">
+            <label for="file">Documents</label>
+            <input type="file" name="file" id="file" />
+          </div>
+          <div class="account-btn-container">
+            <div>
+              <a href="personal.html">
+                <img src="Images/back.png" alt="Back Button" />
+              </a>
+            </div>
+            <div>
+              <a href="index.html">
+                <img src="Images/submit.png" alt="Back Button" />
+              </a>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
